@@ -1,4 +1,31 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Benro Blogs
 theme: PaperMod
+
+params:
+  homeInfoParams:
+      Title: Hi there :wave
+      Content: Can be Info, links, about...
+  socialIcons: # optional
+      - name: "GitHub"
+        url: "https://github.com/DarthBenro008"
+      - name: "twitter"
+        url: "https://twitter.com/hemanth_kri"
+      - name: "email"
+        url: "mailto://hkpdev008@gmail.com"
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/darthbenro008/"
+
+  author: ["Hemanth Krishna"]
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+  editPost:
+        URL: "https://github.com/darthbenro008/benro-blogs/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
