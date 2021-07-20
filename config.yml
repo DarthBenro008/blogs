@@ -1,12 +1,13 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: Benro Blogs
+title: Benro's Blogs
 theme: PaperMod
 
 params:
+  images: ["hem.png"]
   homeInfoParams:
-      Title: Hi there :wave
-      Content: Can be Info, links, about...
+      Title: Welcome to Benro's Blogs 👋
+      Content: I am Hemanth Krishna, a CS Undergrad. This is the place where i write about various tehc
   socialIcons: # optional
       - name: "GitHub"
         url: "https://github.com/DarthBenro008"
@@ -29,3 +30,30 @@ params:
         URL: "https://github.com/darthbenro008/benro-blogs/content"
         Text: "Suggest Changes"
         appendFilePath: true
+menu:
+    main:
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 10
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 20
+        - identifier: categories
+          name: Series
+          url: /categories/
+          weight: 30
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 40
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 50
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON 
