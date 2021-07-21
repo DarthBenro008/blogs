@@ -124,13 +124,20 @@ Indented code
 
 Block code "fences"
 
-```
+```text
 Sample text here...
 ```
 
 Syntax highlighting
 
-``` js
+
+```rust
+fn hello(){
+
+}
+```
+
+```js
 var foo = function (bar) {
   return bar++;
 };

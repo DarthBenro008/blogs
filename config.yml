@@ -30,6 +30,8 @@ params:
         URL: "https://github.com/darthbenro008/benro-blogs/content"
         Text: "Suggest Changes"
         appendFilePath: true
+  assets:
+        disableHLJS: true
 menu:
     main:
         - identifier: search
@@ -57,3 +59,11 @@ outputs:
         - HTML
         - RSS
         - JSON 
+
+markup:
+    highlight:
+        codeFences: true
+        guessSyntax: true
+        lineNos: false
+        # noClasses: true
+        style: monokai
