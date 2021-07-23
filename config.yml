@@ -1,14 +1,22 @@
-baseURL: http://example.org/
+baseURL: https://blogs.benro.tech/
 languageCode: en-us
 title: Benro's Blogs
 theme: PaperMod
+
+googleAnalytics: G-DL7393DNJM
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
 
 params:
   images: ["hem.png"]
   homeInfoParams:
       Title: Welcome to Benro's Blogs 👋
       Content: I am Hemanth Krishna, a CS Undergrad. This is the place where i write about various tehc
-  socialIcons: # optional
+  socialIcons:
       - name: "GitHub"
         url: "https://github.com/DarthBenro008"
       - name: "twitter"
@@ -59,11 +67,9 @@ outputs:
         - HTML
         - RSS
         - JSON 
-
 markup:
     highlight:
         codeFences: true
         guessSyntax: true
         lineNos: false
-        # noClasses: true
         style: monokai

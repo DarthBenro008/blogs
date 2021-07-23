@@ -6,7 +6,7 @@ categories: ["themes", "syntax"]
 series: ["Themes Guide"]
 author: "Hemanth Krishna"
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
