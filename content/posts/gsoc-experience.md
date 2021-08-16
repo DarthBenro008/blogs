@@ -11,7 +11,7 @@ description: "My Experience in Google Summer of Code 2021"
 canonicalURL: "https://canonical.url/to/page"
 hideSummary: false
 cover:
-    image: "/images/gsoc_exp_banner.png"
+    image: "/images/gsoc/gsoc_exp_banner.png"
     alt: "GSoC Experience Banner" 
     hidden: false
 ---
@@ -22,7 +22,7 @@ Hey Folks! I am Hemanth Krishna 👋, a junior undergrad student pursuing Comput
 
 Two words, **_Open-Source Software_** and **_Students_**. Google Summer of Code is a global programme by Google (duh) to bring these two terms together. It provides a great platform and exposure to encourage students to participate in Open Source Software development and inculcate the Open Source culture amongst young budding minds during their summer break.
 
-{{< figure src="/images/gsoc_exp_header.jpeg" caption="Google Summer of Code Logo" >}}
+{{< figure src="/images/gsoc/gsoc_exp_header.jpeg" caption="Google Summer of Code Logo" >}}
 
 To give a gist, major open source projects and organisations (such as CNCF) participate in this programme and put up project ideas. The projects and mentors are selected and put up on the [GSoC (Google Summer of Code) website](https://summerofcode.withgoogle.com/).
 
@@ -36,15 +36,15 @@ Now we know what GSoC is, I had submitted my project idea proposal to a project 
 
 [CNCF](https://cncf.io/) (Cloud Native Computing Foundation) is an organisation that houses the fastest-growing open-source projects that shape the future of cloud computing and the world of DevOps. Some famous projects used worldwide housed by CNCF are [Kubernetes](https://kubernetes.io/), [Prometheus](https://prometheus.io/), [Envoy](https://www.envoyproxy.io/), and, [much more](https://www.cncf.io/projects/)!
 
-{{< figure src="/images/gsoc_exp_cncf_logo.jpg" caption="Cloud Native Computing Foundation Logo" >}}
+{{< figure src="/images/gsoc/gsoc_exp_cncf_logo.jpg" caption="Cloud Native Computing Foundation Logo" >}}
 
 You probably guessed it right! LitmusChaos is also a project (sandbox) housed by CNCF similar to Kubernetes or Prometheus. Hence, my project idea proposal was on LitmusChaos, whose parent organisation is CNCF.
 
-{{< figure src="/images/gsoc_exp_umbrella.jpeg" caption="Umbrealla Organisation" >}}
+{{< figure src="/images/gsoc/gsoc_exp_umbrella.jpeg" caption="Umbrealla Organisation" >}}
 
 ## What is LitmusChaos?
 
-{{< figure src="/images/gsoc_exp_litmus_logo.jpg" caption="Litmus logo" >}}
+{{< figure src="/images/gsoc/gsoc_exp_litmus_logo.jpg" caption="Litmus logo" >}}
 
 Litmus is a Chaos Engineering Platform, which takes a cloud-native approach to create, manage and monitor chaos. In layman terms, LitmusChaos is a tool that helps you stress-test your infrastructure and prevent potential outages. It is a tool SRE (Site Reliability Engineers) and Developer have fun with as they witness the strengths, efficiency and resiliency of their codebase and infrastructure.
 
@@ -56,7 +56,7 @@ If you are interested, come to and say “Hi” by joining the [slack community]
 
 ## My Acceptance into the program
 
-{{< figure src="/images/gsoc_exp_gsoc_timeline.jpeg" caption="Simple timeline of the program" >}}
+{{< figure src="/images/gsoc/gsoc_exp_gsoc_timeline.jpeg" caption="Simple timeline of the program" >}}
 
 As a tech enthusiast along with my interest in open-source tools, I keep exploring various frameworks and tools that enables me to develop applications that aim to solve some real-life problems. I encountered litmus, while I was exploring the concept around Chaos engineering.
 
@@ -74,7 +74,7 @@ After the meet, I was given a small task to implement a basic Oauth authenticati
 
 It was around 11:30 PM, I was in the middle of completing my university assignment which was to be submitted by 11:59 PM (your typical engineering student 😓) and suddenly I receive this email into my inbox!
 
-{{< figure src="/images/gsoc_exp_acceptance_email.png" title="My acceptance email in Google Summer of Code 2021" >}}
+{{< figure src="/images/gsoc/gsoc_exp_acceptance_email.png" title="My acceptance email in Google Summer of Code 2021" >}}
 
 I still remember being really happy and enthusiastic about learning something new for the summer and being mentored by some cool engineers.
 
@@ -90,7 +90,7 @@ Eventually, with further discussion with my mentors and community, I re-wrote th
 
 [My Pull Request for Phase 1](https://github.com/litmuschaos/litmus/pull/2867)
 
-{{< figure src="/images/gsoc_exp_pr_merge.png" title="My PR for first phase of GSoC 2021" >}}
+{{< figure src="/images/gsoc/gsoc_exp_pr_merge.png" title="My PR for first phase of GSoC 2021" >}}
 
 This task is what served as my first evaluation checkpoint, and I passed this evaluation with generous and motivating comment from my mentor!
 
@@ -100,23 +100,23 @@ My secondary task, was integrating an flexible OAuth2, initially, I followed bas
 
 The flow architecture that I proposed is shown below
 
-{{< figure src="/images/gsoc_exp_approach1.jpeg" caption="Proposed Approach for Auth Server" >}}
+{{< figure src="/images/gsoc/gsoc_exp_approach1.jpeg" caption="Proposed Approach for Auth Server" >}}
 
 Later on, we came across an Cloud Native OIDC Provider named [Dex](https://github.com/dexidp/dex). This allowed us to add various authentication features, and I also customised the server to match litmus-portal theme.
 
 Hence, the new architecture proposed turned out to be like the following image:
 
-{{< figure src="/images/gsoc_exp_approach2.jpeg" caption="Authentication Server with Dex Integrated" >}}
+{{< figure src="/images/gsoc/gsoc_exp_approach2.jpeg" caption="Authentication Server with Dex Integrated" >}}
 
 Eventually, I presented my integration to the litmus team over a call, and got some takeaways and green flag for the integration 😃
 
-{{< figure src="/images/gsoc_exp_dex_slide.png" caption="My presentation of Dex Integration with litmus team" >}}
+{{< figure src="/images/gsoc/gsoc_exp_dex_slide.png" caption="My presentation of Dex Integration with litmus team" >}}
 
 I learnt a lot over the period of these 10 weeks regarding GoLang APIs, OIDC Providers, various system architecture patterns and how to write better code! The fact that the code I write is in use by various developers and companies to run and test their system amuses me 😯, You will probably find me contributing to litmus after my GSoC Period too! 😄
 
 ## Should I apply for GSoC? If yes, then how?
 
-{{< figure src="/images/gsoc_exp_oss_meme.jpg#center" >}}
+{{< figure src="/images/gsoc/gsoc_exp_oss_meme.jpg#center" >}}
 
 If you are a student who is enthusiastic about software development, technology in general, would love to explore and be part of open source. You should definitely apply for Google Summer of Code! It is really cool to get mentored by project maintainers who have a great experience in various fields.
 
