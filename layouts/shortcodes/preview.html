@@ -1,0 +1,14 @@
+{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
+<div class="container alert alert-secondary">
+  <div>
+    <a href="{{ .data.url }}" alt="{{ .data.title }}">
+      <strong>{{ .data.title }}</strong>
+    </a>
+  </div>
+  <div class="float-left m-2">
+    {{ printf `<img src="%s" alt="%s" />` .data.logo.url .data.title | safeHTML }}
+  </div>
+  <p><small>gsoc</small></p>
+  <div class="clearfix"></div>
+</div>
+{{ end }}
