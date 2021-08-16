@@ -5,13 +5,15 @@ tags: ["CNCF","DevOps","journey"]
 categories: ["Open Source Program Experiences"]
 author: "Hemanth Krishna"
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
-description: "My experience being an LFX Mentee"
-canonicalURL: "https://canonical.url/to/page"
+images:
+    - images/lfx/lfx_exp_banner.png
+description: "Hemanth's experience being an LFX Mentee"
+canonicalURL: "https://blogs.benro.tech/posts/lfx-experience/"
 hideSummary: false
 cover:
-    image: "images/lfx/lfx_exp_banner.png"
+    image: "/images/lfx/lfx_exp_banner.png"
     alt: "LFX Experience Banner" 
     hidden: false
 ---

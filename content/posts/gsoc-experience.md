@@ -7,8 +7,8 @@ author: "Hemanth Krishna"
 TocOpen: false
 draft: false
 hidemeta: false
-description: "My Experience in Google Summer of Code 2021"
-canonicalURL: "https://canonical.url/to/page"
+description: "Hemanth's Experience in Google Summer of Code 2021"
+canonicalURL: "https://blogs.benro.tech/posts/gsoc-experience/"
 hideSummary: false
 cover:
     image: "/images/gsoc/gsoc_exp_banner.png"
