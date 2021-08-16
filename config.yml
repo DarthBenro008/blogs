@@ -70,6 +70,7 @@ outputs:
         - HTML
         - RSS
         - JSON 
+disqusShortname: benro-blogs
 markup:
     goldmark:
       renderer:
