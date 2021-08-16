@@ -12,6 +12,7 @@ buildExpired: false
 enableEmoji: true
 
 params:
+  env: production
   images: ["hem.png"]
   homeInfoParams:
       Title: Welcome to Benro's Blogs 👋
@@ -25,6 +26,8 @@ params:
         url: "mailto://hkpdev008@gmail.com"
       - name: "LinkedIn"
         url: "https://www.linkedin.com/in/darthbenro008/"
+      - name: "rss"
+        url: "index.xml"
 
   author: ["Hemanth Krishna"]
   ShowShareButtons: true
