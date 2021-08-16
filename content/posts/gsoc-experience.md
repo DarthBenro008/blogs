@@ -1,6 +1,6 @@
 ---
 title: "Google Summer of Code 2021 with Cloud Native Compute Foundation — My experience with LitmusChaos"
-date:  2021-08-15T20:41:26+05:30
+date:  2021-08-10T20:41:26+05:30
 tags: ["Google Summer of Code","Open Source","journey"]
 categories: ["Open Source Program Experiences"]
 author: "Hemanth Krishna"
