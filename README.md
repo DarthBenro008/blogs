@@ -22,8 +22,6 @@ Below are some neat features:
   
 ## ⬇ Installation
 
-### Cargo
-
 - Install hugo-extended v0.87
 - Clone the repo and run `hugo server`
 
