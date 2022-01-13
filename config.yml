@@ -15,19 +15,19 @@ params:
   env: production
   images: ["hem.png"]
   homeInfoParams:
-      Title: Welcome to Benro's Blogs 👋
-      Content: I am Hemanth Krishna, a CS Undergrad. This is the place where i write about various tehc
+    Title: Welcome to Benro's Blogs 👋
+    Content: I am Hemanth Krishna, a CS Undergrad. This is the place where i write about various tehc
   socialIcons:
-      - name: "GitHub"
-        url: "https://github.com/DarthBenro008"
-      - name: "twitter"
-        url: "https://twitter.com/hemanth_kri"
-      - name: "email"
-        url: "mailto://hkpdev008@gmail.com"
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/darthbenro008/"
-      - name: "rss"
-        url: "index.xml"
+    - name: "GitHub"
+      url: "https://github.com/DarthBenro008"
+    - name: "twitter"
+      url: "https://twitter.com/hemanth_kri"
+    - name: "email"
+      url: "mailto://hkpdev008@gmail.com"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/darthbenro008/"
+    - name: "rss"
+      url: "index.xml"
 
   author: ["Hemanth Krishna"]
   ShowShareButtons: true
@@ -38,45 +38,44 @@ params:
   ShowCodeCopyButtons: true
   comments: true
   editPost:
-        URL: "https://github.com/darthbenro008/benro-blogs/content"
-        Text: "Suggest Changes"
-        appendFilePath: true
+    URL: "https://github.com/darthbenro008/benro-blogs/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
   assets:
-        disableHLJS: true
+    disableHLJS: true
 menu:
-    main:
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 10
-        - identifier: archives
-          name: Archive
-          url: /archives/
-          weight: 20
-        - identifier: categories
-          name: Series
-          url: /categories/
-          weight: 30
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 40
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 50
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: categories
+      name: Series
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON 
-disqusShortname: benro-blogs
+  home:
+    - HTML
+    - RSS
+    - JSON
 markup:
-    goldmark:
-      renderer:
-        unsafe: true
-    highlight:
-        codeFences: true
-        guessSyntax: true
-        lineNos: false
-        style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
